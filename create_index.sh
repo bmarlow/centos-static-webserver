@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cat <<EOF >> /var/run/web/index.html
+cat <<EOF > /var/run/web/index.html
 <html>
   <head>
     <title>My Test app</title>
