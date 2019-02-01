@@ -6,5 +6,5 @@ COPY create_index.sh /var/run/web/create_index.sh
 #RUN touch /var/run/web/index.html
 #RUN bash create_index.sh
 USER 1001
-CMD cd /var/run/web && bash create_index.sh && python -m SimpleHTTPServer 8080
+CMD cd /var/run/web && python -m SimpleHTTPServer 8080
 
