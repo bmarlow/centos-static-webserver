@@ -25,11 +25,11 @@ The purpose of this project is to show how you can use GitHub and OpenShift to d
 
     Using a token
         
-        ```
-        oc create secret generic <secret_name> \
-        --from-literal=password=<your_token> \
-        --type=kubernetes.io/basic-auth
-        ```
+    ```
+    oc create secret generic <secret_name> \
+    --from-literal=password=<your_token> \
+    --type=kubernetes.io/basic-auth
+    ```
 
     Or using credentials
     ```
