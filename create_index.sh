@@ -7,7 +7,7 @@ cat << EOF > /var/run/web/index.html
   <body>
     <h1>Hello World</h1>
     <p>This is my local application</p>
-    <p>Version 1.2</p>
+    <p>Version 1.0.1</p>
     <p>Hostname of container is $(hostname)</p>
     <p>This container was started at $(date)</p>
   </body>
