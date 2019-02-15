@@ -5,7 +5,7 @@ ENVIRONMENT=$(echo $hostname | cut -f 1 -d '-')
 cat << EOF > /var/run/web/index.html
 <html>
   <head>
-    <title>My $(ENVIRONMENT) app</title>
+    <title>My $ENVIRONMENT app</title>
   </head>
   <body>
     <h1>Hello World</h1>
