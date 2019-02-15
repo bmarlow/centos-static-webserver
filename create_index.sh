@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ENVIRONMENT="$(hostname) | cut -f 1 -d '-')"
+ENVIRONMENT=$(echo $hostname | cut -f 1 -d '-')
 
 cat << EOF > /var/run/web/index.html
 <html>
