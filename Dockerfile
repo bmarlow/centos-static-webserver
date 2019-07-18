@@ -7,7 +7,8 @@ RUN chmod +x /var/run/web/create_index.sh
 #Create index file ahead of time
 RUN touch /var/run/web/index.html
 #Update perms to make index file writable by everyone
-RUN chmod 777 /var/run/web/index.html
+RUN chmod -R 777 /var/run/web
+#RUN chmod 777 /var/run/web/index.html
 #Change to non-priviledged user
 USER 1001
 #Switch directories, run the script, then fire up the python test server
