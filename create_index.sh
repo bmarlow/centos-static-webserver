@@ -10,7 +10,7 @@ cat << EOF > /tmp/index.html
   <body>
     <h1>Hello World</h1>
     <p>This is my local application</p>
-    <p>Version 2.0.0</p>
+    <p>Version 1.0.0</p>
     <p>Hostname of container is $(hostname)</p>
     <p>This container was started at $(date)</p>
   </body>
