@@ -11,5 +11,5 @@ RUN chmod 777 /tmp/index.html
 #Change to non-priviledged user
 #USER 1001
 #Switch directories, run the script, then fire up the python test server
-CMD cd /asdfasdfasdfasdftmp && bash create_index.sh && python -m SimpleHTTPServer 8080
+CMD cd /tmp && bash create_index.sh && python -m SimpleHTTPServer 8080
 
