@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#hello world
 ENVIRONMENT=$(echo $hostname | cut -f 1 -d '-')
 
 cat << EOF > /tmp/index.html
