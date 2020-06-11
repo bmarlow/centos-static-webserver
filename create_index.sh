@@ -8,7 +8,7 @@ cat << EOF > /tmp/index.html
     <title>My $ENVIRONMENT app</title>
   </head>
   <body>
-    <h1>Hello Idaho</h1>
+    <h1>Hello Idaho!!</h1>
     <p>This is my local application</p>
     <p>Version 1.0.2</p>
     <p>Hostname of container is $(hostname)</p>
